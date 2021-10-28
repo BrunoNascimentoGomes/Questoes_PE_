@@ -11,7 +11,7 @@ int main()
     int divisor = 2;
     int maiordiv = 0;
     
-    while(numero > 1){
+    while(numero > 1){                       //Basicamente, estamos fatorando o número, até achar o maior divisor primo.
         if(numero%divisor == 0){
             maiordiv = divisor;
             numero = numero/divisor;

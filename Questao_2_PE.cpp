@@ -12,7 +12,7 @@ int main()
     
     int total = 0;
     
-    while(fprox <= 4000000){
+    while(fprox <= 4000000){             //Dentro do while, ele faz o cálculo dos fatores da sequência e verifica se ele par, se for, soma ao total 
         if((fprox%2) == 0){
             total = total + fprox;
         }

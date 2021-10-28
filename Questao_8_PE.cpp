@@ -33,13 +33,13 @@ int main(){
     "05886116467109405077541002256983155200055935729725" 
     "71636269561882670428252483600823257530420752963450";
     
-    for(int i = 0; i + 13 <= 1000 ; i++){
-        for(int h = 0; h < 13; h++){
+    for(int i = 0; i + 13 <= 1000 ; i++){                      //For para que o "i" percorra todo array
+        for(int h = 0; h < 13; h++){                           //For para as multiplicações a partir da posição atual do i.
             produto = produto * (ch[h + i] - 48);
             
         }
     
-        if(produto > max){
+        if(produto > max){          
             max = produto;
         }
         produto = 1;
